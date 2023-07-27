@@ -7,7 +7,10 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite font-family: Roboto, sans-serif;
     font-weight: 300;
 }
 
@@ -43,6 +46,7 @@ nav {
 /* Main Content */
 main {
     background-color: blue;
+    flex: 1 0 auto;
 }
 
 /* Footer */
