@@ -35,17 +35,23 @@ header {
 
 header a {
     text-decoration: none;
-    color: antiquewhite;S
+    color: antiquewhite
 }
 
 #logo {
     font-size: 300%;
-    background-color: red;
 }
 
-.navbar {
-    background-color: yellow;
+#navbar {
+    font-size: 150%;
+    letter-spacing: 3px;
+    list-style-type: none;git
 }
+
+.active {
+    border-bottom: 1px solid #faebd7
+}
+
 
 /* Main Content */
 main {
