@@ -113,5 +113,12 @@ footer {
 
 /* Media query for laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-    
+    #navbar a:hover {
+        border: solid 1px;
+        border-color: #659DBD;
+        border-radius: 0 5px 5px 0;
+        background-color: white;
+        color: #659DBD
+    }
+
 }
