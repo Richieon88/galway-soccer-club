@@ -31,6 +31,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 1px 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -39,19 +42,33 @@ header a {
 }
 
 #logo {
-    font-size: 300%;
+    font-size: 200%;
 }
 
 #navbar {
     font-size: 150%;
     letter-spacing: 3px;
-    list-style-type: none;git
+    list-style-type: none;
 }
 
 .active {
     border-bottom: 1px solid #faebd7
 }
 
+nav {
+    position: absolute;
+    background-color: #659DBD;
+    width: 100%;
+    padding: 0 1rem;
+    box-shadow: 0 1px 1px;
+    left: 0;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
 
 /* Main Content */
 main {
