@@ -3,10 +3,49 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
+}
+
+/* Headings and Logo */
+
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+nav {
+    display: flex;
+    background-color: #659DBD;
+    width: 100%;
+}
+
+.logo {
+    align-self: flex-start;
+    font-size: 300%;
+    color: antiquewhite;
+    background-color: red;
+}
+
+.navbar {
+    align-self: flex-end;
+    color: antiquewhite;
+    background-color: yellow;
+}
+
+/* Main Content */
+main {
+    background-color: blue;
+}
+
+/* Footer */
+footer {
+    background-color: green;
 }
