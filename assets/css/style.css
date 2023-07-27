@@ -52,7 +52,11 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #faebd7
+    border: solid 1px;
+    border-color: #659DBD;
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    color: #659DBD
 }
 
 nav {
