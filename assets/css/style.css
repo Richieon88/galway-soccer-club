@@ -70,6 +70,10 @@ nav {
     display: block;
 }
 
+#nav-toggle {
+    display: none;
+}
+
 /* Main Content */
 main {
     background-color: blue;
