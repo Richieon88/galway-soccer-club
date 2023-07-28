@@ -80,9 +80,16 @@ nav {
 
 /* Main Content */
 main {
-    background-color: blue;
     flex: 1 0 auto;
     margin-top: 60px;
+}
+
+/* Main image */
+#main-image {
+    background: url(../images/main-image.jpg) no-repeat center center/cover;
+    width: 100%;
+    margin-top: 35px;
+    height: 600px;
 }
 
 /* Footer */
