@@ -86,8 +86,20 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: green;
+#media-links {
+    background-color: #659DBD;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 150%;
+
+}
+
+#media-links i {
+    color: antiquewhite;
 }
 
 /* Media query for tablets and larger (768px and up) */
