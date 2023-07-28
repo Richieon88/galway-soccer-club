@@ -96,6 +96,13 @@ main {
     height: 600px;
 }
 
+/* Description section */
+#description {
+    width: 100%;
+    background-color: #659DBD;
+    text-align: center;
+}
+
 /* Footer */
 #media-links {
     background-color: #659DBD;
