@@ -151,6 +151,47 @@ table,
 td,
 tr {
     border: 1px solid black;
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+#events-section {
+    width: 95%;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#events-section img {
+    width: 100%;
+    height: auto;
+}
+
+.event-one {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.event-two {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.event-three {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
@@ -236,6 +277,8 @@ tr {
         border: none;
 
     }
+
+    /* Events Section */
 
 }
 
