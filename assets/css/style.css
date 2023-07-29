@@ -146,6 +146,13 @@ main {
     text-decoration: underline;
 }
 
+/* Events Section */
+table,
+td,
+tr {
+    border: 1px solid black;
+}
+
 
 /* Footer */
 #media-links {
