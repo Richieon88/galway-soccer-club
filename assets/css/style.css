@@ -105,13 +105,43 @@ main {
 
 /* Main Section */
 #main-section {
-    width: 100%;
+    width: 95%;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #main-section img {
     max-width: 100%;
     height: auto;
 }
+
+#about {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#join-us {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+#where {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 
 /* Footer */
 #media-links {
