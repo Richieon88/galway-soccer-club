@@ -193,6 +193,19 @@ main {
         justify-content: center;
     }
 
+
+    #main-section p {
+        width: 50%;
+        height: 300px;
+
+    }
+
+    #main-section img {
+        width: 50%;
+        padding-right: 10px;
+        height: 300px;
+    }
+
     .about {
         display: flex;
         flex-direction: row;
@@ -201,14 +214,21 @@ main {
 
     }
 
-    #main-section p {
-        width: 50%;
+    .join-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: none;
+
     }
 
-    #main-section img {
-        width: 50%;
-    }
+    .where {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: none;
 
+    }
 
 }
 
