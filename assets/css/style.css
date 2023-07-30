@@ -54,7 +54,7 @@ header a {
 .active {
     border: solid 1px;
     border-color: #659DBD;
-    border-radius: 0 5px 5px 0;
+    border-radius: 25px;
     background-color: white;
     color: #659DBD
 }
@@ -198,8 +198,40 @@ tr {
 #form-section {
     background-color: yellowgreen;
     margin-top: 66px;
-    height: 200px;
+    height: 400px;
 }
+
+.sign-up {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.form {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.age-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+
+
+.submit {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.submit-button {
+    background-color: black;
+    color: antiquewhite;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+}
+
 
 
 /* Footer */
@@ -294,7 +326,7 @@ tr {
     #navbar a:hover {
         border: solid 1px;
         border-color: #659DBD;
-        border-radius: 0 5px 5px 0;
+        border-radius: 25px;
         background-color: white;
         color: #659DBD
     }
