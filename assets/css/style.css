@@ -194,6 +194,13 @@ tr {
     margin-bottom: 15px;
 }
 
+/* Form Section */
+#form-section {
+    background-color: yellowgreen;
+    margin-top: 66px;
+    height: 200px;
+}
+
 
 /* Footer */
 #media-links {
