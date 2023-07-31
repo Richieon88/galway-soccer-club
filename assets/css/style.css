@@ -195,22 +195,31 @@ tr {
 }
 
 /* Form Section */
+#form-page {
+    background-image: url(../images/football_pitch_2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
 #form-section {
-    background-image: url(../images/);
-    margin-top: 66px;
+    margin-top: 100px;
     height: 400px;
+    background-color: black;
+    color: antiquewhite;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .sign-up {
     text-align: center;
     padding-top: 25px;
-    background-color: blue;
+    background-color: black;
 }
 
 .form {
     text-align: center;
     padding-top: 25px;
-    background-color: red;
+    background-color: black;
 }
 
 .age-group {
@@ -218,9 +227,7 @@ tr {
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: yellow;
+    background-color: black;
 }
 
 
@@ -231,11 +238,11 @@ tr {
 
 .submit-button {
     background-color: black;
-    color: antiquewhite;
+    color: black;
     height: 50px;
     width: 100px;
     border-radius: 25px;
-    background-color: green;
+    background-color: antiquewhite;
 }
 
 
