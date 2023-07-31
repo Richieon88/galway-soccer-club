@@ -25,7 +25,7 @@ h2 {
 
 
 header {
-    background-color: #659DBD;
+    background-color: black;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -47,21 +47,20 @@ header a {
 
 #navbar {
     font-size: 150%;
-    letter-spacing: 3px;
     list-style-type: none;
 }
 
 .active {
     border: solid 1px;
-    border-color: #659DBD;
+    border-color: black;
     border-radius: 25px;
     background-color: white;
-    color: #659DBD
+    color: black;
 }
 
 nav {
     position: absolute;
-    background-color: #659DBD;
+    background-color: black;
     width: 100%;
     padding: 0 1rem;
     box-shadow: 0 1px 1px;
@@ -99,7 +98,8 @@ main {
 /* Description section */
 #description {
     width: 100%;
-    background-color: #659DBD;
+    background-color: black;
+    color: antiquewhite;
     text-align: center;
 }
 
@@ -253,7 +253,7 @@ tr {
 
 /* Footer */
 #media-links {
-    background-color: #659DBD;
+    background-color: black;
     display: flex;
     text-align: center;
     justify-content: space-evenly;
@@ -377,10 +377,10 @@ tr {
 @media screen and (min-width: 992px) {
     #navbar a:hover {
         border: solid 1px;
-        border-color: #659DBD;
+        border-color: black;
         border-radius: 25px;
         background-color: white;
-        color: #659DBD
+        color: black;
     }
 
 }
