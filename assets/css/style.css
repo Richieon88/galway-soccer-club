@@ -88,6 +88,7 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 30px;
+    background-color: antiquewhite;
 }
 
 /* Main image */
@@ -160,10 +161,12 @@ tr {
 
 #events-section {
     width: 95%;
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: antiquewhite;
+    margin-right: 0%;
 }
 
 #events-section img {
@@ -204,7 +207,8 @@ tr {
 }
 
 #form-section {
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-bottom: 100px;
     height: 400px;
     background-color: black;
     color: antiquewhite;
