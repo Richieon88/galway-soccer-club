@@ -204,11 +204,13 @@ tr {
 .sign-up {
     text-align: center;
     padding-top: 25px;
+    background-color: blue;
 }
 
 .form {
     text-align: center;
     padding-top: 25px;
+    background-color: red;
 }
 
 .age-group {
@@ -216,6 +218,9 @@ tr {
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: yellow;
 }
 
 
@@ -230,6 +235,7 @@ tr {
     height: 50px;
     width: 100px;
     border-radius: 25px;
+    background-color: green;
 }
 
 
@@ -317,7 +323,42 @@ tr {
 
     }
 
-    /* Events Section */
+    /* Form Section */
+    .form-sign-up {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 150%;
+        justify-content: space-between;
+    }
+
+    .sign-up {
+        width: 50%;
+    }
+
+    .form {
+        width: 50%;
+    }
+
+    .age-group {
+        justify-content: flex-end;
+        font-size: 150%;
+        justify-content: space-evenly;
+    }
+
+    .submit-button {
+        height: 100px;
+        width: 150px;
+        font-size: 150%;
+    }
+
+    /* input[type=radio] {
+        margin: 0 10px 0 10px;
+    }
+
+    .age-group p {
+        margin: 20px;
+    } */
 
 }
 
