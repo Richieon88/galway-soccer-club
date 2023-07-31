@@ -196,7 +196,7 @@ tr {
 
 /* Form Section */
 #form-section {
-    background-color: yellowgreen;
+    background-image: url(../images/);
     margin-top: 66px;
     height: 400px;
 }
@@ -351,14 +351,6 @@ tr {
         width: 150px;
         font-size: 150%;
     }
-
-    /* input[type=radio] {
-        margin: 0 10px 0 10px;
-    }
-
-    .age-group p {
-        margin: 20px;
-    } */
 
 }
 
