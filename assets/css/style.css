@@ -180,6 +180,7 @@ main {
     background-color: black;
     color: antiquewhite;
     text-align: center;
+    margin-top: -20px;
 }
 
 /* Main Section */
@@ -196,6 +197,9 @@ main {
 #main-section img {
     max-width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 .about {
@@ -225,7 +229,14 @@ main {
 
 #main-section h3 {
     text-decoration: underline;
+    font-family: 'Oswald',
+        sans-serif;
 }
+
+#main-section p {
+    padding: 10px;
+}
+
 
 /* Events Section */
 table,
