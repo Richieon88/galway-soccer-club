@@ -346,6 +346,14 @@ tr {
     background-color: antiquewhite;
 }
 
+/* Response Section */
+#response h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin-top: 100px;
+    padding: 15px;
+}
 
 
 /* Footer */
