@@ -244,7 +244,7 @@ tr {
     flex-direction: column;
     justify-content: center;
     background-color: antiquewhite;
-    margin-right: 0%;
+    margin: auto
 }
 
 #events-section img {
@@ -369,6 +369,7 @@ tr {
         display: flex;
         flex-direction: row;
         /* height: fit-content; */
+
     }
 
     nav {
@@ -377,6 +378,7 @@ tr {
 
     #navbar>li {
         padding-left: 1rem;
+
     }
 
     nav {
@@ -434,7 +436,8 @@ tr {
     #form-section {
         height: 500px;
         width: 500px;
-        margin-left: 250px;
+        margin: 20%;
+
     }
 
     .form-sign-up {
