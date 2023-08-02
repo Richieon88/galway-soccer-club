@@ -407,6 +407,10 @@ tr {
     }
 
 
+    #main-section hr {
+        display: none;
+    }
+
     #main-section p {
         width: 50%;
         height: 300px;
