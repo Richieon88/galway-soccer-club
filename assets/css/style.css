@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
 
-* {
+:root {
+    --color-primary: antiquewhite;
+    --color-secondary: black;
+}
+
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +17,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: black;
+    color: var(--color-secondary);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -33,13 +40,21 @@ header {
     box-shadow: 0 1px 1px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 header a {
     text-decoration: none;
     color: antiquewhite;
     font-size: 150%;
+}
+
+header li a {
+    padding: 5px 10px;
+}
+
+img {
+    object-fit: cover;
 }
 
 #logo {
@@ -49,6 +64,10 @@ header a {
 #navbar {
     font-size: 100%;
     list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
 }
 
 .active {
@@ -66,12 +85,19 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 1px 1px;
     left: 0;
-    display: none;
+    /* display: none; */
     top: 100%;
+    transform: scale(1, 0);
+    transition: all 0.3s ease-in-out;
+    transform-origin: top;
+    height: 150px;
+    display: flex;
+    align-items: center;
 }
 
 #nav-toggle:checked~nav {
-    display: block;
+    transform: scale(1, 1);
+    /* display: block; */
 }
 
 #nav-toggle {
@@ -81,7 +107,57 @@ nav {
 .nav-toggle-label {
     font-size: 200%;
     color: antiquewhite;
+    width: 25px;
+    height: 25px;
+    position: relative;
 
+}
+
+.nav-toggle-label span {
+    height: 2px;
+    width: 25px;
+    background-color: antiquewhite;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    background-color: antiquewhite;
+    color: white;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-toggle-label span::before {
+    top: -8px;
+}
+
+.nav-toggle-label span::after {
+    top: 8px;
+}
+
+#nav-toggle:checked~.nav-toggle-label span {
+    background-color: transparent;
+}
+
+#nav-toggle:checked~.nav-toggle-label span::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+#nav-toggle:checked~.nav-toggle-label span::after {
+    transform: rotate(-45deg);
+    top: 0;
 }
 
 /* Main Content */
@@ -113,6 +189,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 #main-section img {
@@ -201,9 +279,11 @@ tr {
 
 /* Form Section */
 #form-page {
-    background-image: url(../images/football_pitch_2.jpeg);
+    background-image: url(../images/football-pitch3.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: no-repeat center center fixed;
+    width: 100%;
+    height: auto;
 }
 
 #form-section {
@@ -287,10 +367,20 @@ tr {
 
     #navbar {
         display: flex;
+        flex-direction: row;
+        /* height: fit-content; */
+    }
+
+    nav {
+        height: fit-content;
     }
 
     #navbar>li {
         padding-left: 1rem;
+    }
+
+    nav {
+        transform: unset !important;
     }
 
     .nav-toggle-label {
