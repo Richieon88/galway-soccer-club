@@ -431,6 +431,12 @@ tr {
     }
 
     /* Form Section */
+    #form-section {
+        height: 500px;
+        width: 500px;
+        margin-left: 250px;
+    }
+
     .form-sign-up {
         display: flex;
         flex-direction: row;
