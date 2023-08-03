@@ -515,4 +515,9 @@ tr {
         color: black;
     }
 
+    /* Events Section */
+    #events-section img {
+        height: 600px;
+    }
+
 }
