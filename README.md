@@ -34,13 +34,6 @@ In this section, you should go over the different parts of your project, and des
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Main section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
 - __The Footer__ 
 
   - The footer section includes has links to the three social media platforms that the club uses. 
@@ -48,16 +41,19 @@ In this section, you should go over the different parts of your project, and des
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+- __Events Page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The events section is a page to display the upcoming eents organised by members of the club. 
+  - This section features an image and a table with times, locations and the type of events that have been set-up.
+  - This page shows the user the type of events the club has planned. 
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page contains a form which provides the user with a way to become a member of the club.
+  It has a first name, last name and email address boxes for the user to fill out.
+  It also has radio buttons for users to enter their age-group so they can play with people in their own age-group. 
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
@@ -67,7 +63,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- A gallery feature could be implemented to show users images of people taking part in events to showcase what to expect from the club.
 
 ## Testing 
 
