@@ -242,9 +242,11 @@ main {
 table,
 td,
 tr {
-    border: 1px solid black;
+    border: 3px solid black;
     width: 100%;
     table-layout: fixed;
+    height: 50px;
+    padding: 10px;
 }
 
 
@@ -255,7 +257,7 @@ tr {
     flex-direction: column;
     justify-content: center;
     background-color: antiquewhite;
-    margin: auto
+    margin: auto;
 }
 
 #events-section img {
@@ -264,7 +266,7 @@ tr {
 }
 
 .event-one {
-    border: 1px solid black;
+    border: 5px solid black;
     border-radius: 15px;
     padding: 10px 10px 10px 10px;
     margin-top: 15px;
@@ -273,7 +275,7 @@ tr {
 }
 
 .event-two {
-    border: 1px solid black;
+    border: 5px solid black;
     border-radius: 15px;
     padding: 10px 10px 10px 10px;
     margin-top: 15px;
@@ -281,7 +283,7 @@ tr {
 }
 
 .event-three {
-    border: 1px solid black;
+    border: 5px solid black;
     border-radius: 15px;
     padding: 10px 10px 10px 10px;
     margin-top: 15px;
@@ -455,6 +457,7 @@ tr {
         border: none;
 
     }
+
 
     /* Form Section */
     #form-section {
