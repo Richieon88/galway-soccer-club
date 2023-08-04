@@ -2,7 +2,7 @@
 
 Galway Soccer Club is a website for people looking for a place to organise and participate in friendly games of soccer in the Galway area. The aim of the website is to draw in more people to join the club and become members. It also acts as a place where people can highlight and advertise the events that they organised and the time and the locations that they are taking place in.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love)
+![Responsice Mockup](assets/images/responsive.png)
 
 ## Features
 
@@ -23,14 +23,14 @@ In this section, you should go over the different parts of your project, and des
   - The landing includes a main image conveying what the main subject of the site is.
   - Under the main image is a description that details what exactly the website is about.
 
-![Landing Page](../galway-soccer-club/assets/images/landing-page.png)
+![Landing Page](assets/images/landing-page.png)
 
 - **Main Section**
 
   - The main section on the home page features three scetions that go into more detail explaining what Galway Soccer Club is and the service it offers.
   - The three sections are about us, explaining the club to users, why join us, explaining the benifits of becoming a member, and where we play, telling users the locations that the club uses.
 
-![Main Section](../galway-soccer-club/assets/images/main-section.png)
+![Main Section](images/main-section.png)
 
 - **The Footer**
 
@@ -45,7 +45,7 @@ In this section, you should go over the different parts of your project, and des
   - This section features an image and a table with times, locations and the type of events that have been set-up.
   - This page shows the user the type of events the club has planned.
 
-![Events](../galway-soccer-club/assets/images/events.png)
+![Events](assets/images/events.png)
 
 - **The Sign Up Page**
 
