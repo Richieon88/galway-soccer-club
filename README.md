@@ -13,8 +13,6 @@
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - **Navigation Bar**
@@ -37,7 +35,7 @@ In this section, you should go over the different parts of your project, and des
   - The main section on the home page features three scetions that go into more detail explaining what Galway Soccer Club is and the service it offers.
   - The three sections are about us, explaining the club to users, why join us, explaining the benifits of becoming a member, and where we play, telling users the locations that the club uses.
 
-![Main Section](images/main-section.png)
+![Main Section](assets/images/main-section.png)
 
 - **The Footer**
 
@@ -48,7 +46,7 @@ In this section, you should go over the different parts of your project, and des
 
 - **Events Page**
 
-  - The events section is a page to display the upcoming eents organised by members of the club.
+  - The events section is a page to display the upcoming events organised by members of the club.
   - This section features an image and a table with times, locations and the type of events that have been set-up.
   - This page shows the user the type of events the club has planned.
 
@@ -59,6 +57,7 @@ In this section, you should go over the different parts of your project, and des
   - This page contains a form which provides the user with a way to become a member of the club.
     It has a first name, last name and email address boxes for the user to fill out.
     It also has radio buttons for users to enter their age-group so they can play with people in their own age-group.
+  - On completion of the form it takes you to a response page thanking you for completing the form.
 
 ![Sign Up](assets/images/sign-up.png)
 
