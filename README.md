@@ -16,7 +16,7 @@ In this section, you should go over the different parts of your project, and des
   - This section is fully responsive and the home, events and sign up elements change to a dropdown menu on smaller screens.
   - These elements allow the user to navigate the website easily without having to resort to using the back button on the browser.
 
-![Nav Bar](../galway-soccer-club/assets/images/navbar.png)
+![Nav Bar](assets/images/navbar.png)
 
 - **The landing page image**
 
@@ -37,7 +37,7 @@ In this section, you should go over the different parts of your project, and des
   - The footer section includes has links to the three social media platforms that the club uses.
   - The footer provides an easy way for users to visit the clubs social media accounts.
 
-![Footer](../galway-soccer-club/assets/images/footer.png)
+![Footer](assets/images/footer.png)
 
 - **Events Page**
 
@@ -53,7 +53,7 @@ In this section, you should go over the different parts of your project, and des
     It has a first name, last name and email address boxes for the user to fill out.
     It also has radio buttons for users to enter their age-group so they can play with people in their own age-group.
 
-![Sign Up](../galway-soccer-club/assets/images/sign-up.png)
+![Sign Up](assets/images/sign-up.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
