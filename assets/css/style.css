@@ -117,7 +117,7 @@ nav {
     height: 2px;
     width: 25px;
     background-color: antiquewhite;
-    color: white;
+    color: transparent;
     display: block;
     position: absolute;
     top: 50%;
@@ -308,6 +308,9 @@ tr {
     margin-left: 25px;
     margin-right: 25px;
     padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sign-up {
@@ -476,17 +479,30 @@ tr {
     }
 
     .sign-up {
-        width: 50%;
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-left: 5px;
     }
 
     .form {
+        padding-left: 10px;
+    }
+
+    .form-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .form-top div {
         width: 50%;
     }
 
     .age-group {
-        justify-content: flex-end;
         font-size: 100%;
-        margin-right: 100px;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .age-group label {

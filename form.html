@@ -15,7 +15,7 @@
 <body>
     <header>
         <a href="index.html">
-            <h2 id="logo">Galway Soccer Club</h1>
+            <h2 id="logo">Galway Soccer Club</h2>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
@@ -37,37 +37,41 @@
     <main id="form-page">
         <section id="form-section">
             <div class="form-sign-up">
-                <div class="sign-up">
-                    <h1>Sign Up</h1>
-                    <p>Sign up to become a member of the club and organise your own events</p>
-                </div>
-                <div class="form">
-                    <form action="response.html" method="get">
-                        <label for="fname">First name:</label><br>
-                        <input type="text" id="fname" name="fname"><br>
-                        <label for="lname">Last name:</label><br>
-                        <input type="text" id="lname" name="lname"><br>
-                        <label for="email">Email Address:</label><br>
-                        <input type="email" id="email" name="email">
+                <form class="form" action="response.html" method="get">
+                    <div class="form-top">
+                        <div class="sign-up">
+                            <h1>Sign Up</h1>
+                            <p>Sign up to become a member of the club and organise your own events</p>
+                        </div>
+                        <div>
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname"><br>
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" id="lname" name="lname"><br>
+                            <label for="email">Email Address:</label><br>
+                            <input type="email" id="email" name="email">
 
 
-                </div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                    <div class="age-group">
+                        <p>Age Group</p>
+                        <label for="18-30">18-30</label><br>
+                        <input type="radio" id="18-30" name="age-group" required checked><br>
+                        <label for="30-50">30-50</label><br>
+                        <input type="radio" id="30-50" name="age-group"><br>
+                        <label for="50+">50+</label><br>
+                        <input type="radio" id="50+" name="age-group">
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Sign Up" class="submit-button">
+                    </div>
+
+                </form>
             </div>
 
-            <div class="age-group">
-                <p>Age Group</p>
 
-                <label for="18-30">18-30</label><br>
-                <input type="radio" id="18-30" name="age-group" required checked><br>
-                <label for="30-50">30-50</label><br>
-                <input type="radio" id="30-50" name="age-group"><br>
-                <label for="50+">50+</label><br>
-                <input type="radio" id="50+" name="age-group">
-            </div>
-            <div class="submit">
-                <input type="submit" value="Sign Up" class="submit-button">
-            </div>
-            </form>
 
         </section>
     </main>
