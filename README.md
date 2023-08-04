@@ -69,9 +69,9 @@
 ## Testing
 
 - I tested that the website works in different browsers: Chrome, Firefox,Edge.
-- I tested on different size screens to make sure it was responsive and everthing functions as intended.
+- I tested on different size screens to make sure it was responsive and everything functions as intended.
 - I tested all the links to make sure they all work and lead to the correct locations.
-- I tested the form works and requires you to fill it before submiting.
+- I tested the form works and requires you to fill it in before submiting.
 
 ### Validator Testing
 
