@@ -1,8 +1,15 @@
 # Galway Soccer Club
 
-Galway Soccer Club is a website for people looking for a place to organise and participate in friendly games of soccer in the Galway area. The aim of the website is to draw in more people to join the club and become members. It also acts as a place where people can highlight and advertise the events that they organised and the time and the locations that they are taking place in.
+[Galway Soccer Club](https://richieon88.github.io/galway-soccer-club/) is a website for people looking for a place to organise and participate in friendly games of soccer in the Galway area. The aim of the website is to draw in more people to join the club and become members. It also acts as a place where people can highlight and advertise the events that they organised and the time and the locations that they are taking place in.
 
 ![Responsice Mockup](assets/images/responsive.png)
+
+## Technologies used
+
+- HTML
+- CSS
+- Font Awesome icons
+- Google fonts
 
 ## Features
 
@@ -65,13 +72,22 @@ In this section, you should go over the different parts of your project, and des
 - I tested that the website works in different browsers: Chrome, Firefox,Edge.
 - I tested on different size screens to make sure it was responsive and everthing functions as intended.
 - I tested all the links to make sure they all work and lead to the correct locations.
+- I tested the form works and requires you to fill it before submiting.
 
 ### Validator Testing
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- ##### HTML
+
+  - No errors or warnings were found when passing through the official W3C validator.
+
+- ##### CSS
+
+  - No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+
+- ##### Accessibility and performance
+
+  - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+    ![Performance score](assets/images/lighthouse.png)
 
 ### Bugs
 
@@ -84,8 +100,6 @@ In this section, you should go over the different parts of your project, and des
 
   - I had a bug on the form page when changing its size. The elements inside the form displayed in an unexpected way.
   - I fixed it by adjusting the display type and adjusting heights and widths of the form elements.
-
-  ***
 
 - ##### Unsolved bugs
 
@@ -101,10 +115,6 @@ In this section, you should go over the different parts of your project, and des
 The live link can be found here - [Galway Soccer Club](https://richieon88.github.io/galway-soccer-club/)
 
 ## Credits
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 ### Content
 
